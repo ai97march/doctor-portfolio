@@ -1,55 +1,85 @@
-@import '../../styles/contants.scss';
+// @import "../../styles/contants.scss";
 
-.wrapper{
-    background: white;
-    .container{
-        gap: 2rem;
-        @media (max-width: $sm) {
-            flex-direction: column;
-            gap: 2rem;
-            align-items: flex-start;
-        }
-        .left{
-            flex: 3;
-            >*{
-                display: block;
-            }
-            >:nth-child(2)
-            {
-                margin-top: 3rem;
+// .wrapper {
+//   background: white;
+//   .container {
+//     gap: 2rem;
+//     @media (max-width: $sm) {
+//       flex-direction: column;
+//       gap: 2rem;
+//       align-items: flex-start;
+//     }
+//     .left {
+//       flex: 3;
+//       > * {
+//         display: block;
+//       }
+//       > :nth-child(2) {
+//         margin-top: 3rem;
 
-                a{
-                    text-decoration: underline;
-                    color: orange;
-                }
-            }
-        }
+//         a {
+//           text-decoration: underline;
+//           color: orange;
+//         }
+//       }
+//     }
 
+//     .right {
+//       flex: 1;
+//       .info {
+//         margin-bottom: 1rem;
+//         > * {
+//           display: block;
+//         }
+//       }
+//       .menu {
+//         @media (max-width: $sm) {
+//           flex-direction: row;
+//           flex-wrap: wrap;
+//         }
+//         display: flex;
+//         flex-direction: column;
+//         gap: 2rem;
+//         list-style: none;
+//         li {
+//           cursor: pointer;
+//           &:hover {
+//             color: $secondary;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-        .right{
-            flex: 1;
-            .info{
-                margin-bottom: 1rem;
-                >*{
-                    display: block;
-                }
-            }
-            .menu{
-                @media (max-width: $sm) {
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                }
-                display: flex;
-                flex-direction: column;
-                gap: 2rem;
-                list-style: none;
-                li{
-                    cursor: pointer;
-                    &:hover{
-                        color: $secondary
-                    }
-                }
-            }
-        }
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    p {
+      margin-bottom: 1rem;
     }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+
+      p {
+        margin-bottom: 1rem;
+        width: 100%;
+      }
+    }
+  }
 }

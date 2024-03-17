@@ -24,23 +24,43 @@ const Header = () => {
       whileInView="show"
       className={`bg-primary paddings ${css.wrapper}`}
       viewport={{ once: true, amount: 0.25 }}
-      style={{boxShadow: headerShadow}}
+      style={{ boxShadow: headerShadow }}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Binjan</div>
+        <div className="flexCenter">
+          <img
+            src="./Tarjeta_sincolortrue_simple.png"
+            alt="Clara López Psicóloga"
+            width="60"
+            height="50"
+          />
+          <div>
+            <div className={css.name}>Clara López</div>
+            <div> P S I C O L O G Í A</div>
+          </div>
+        </div>
+
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li><a href="#experties">Services</a></li>
-          <li><a href="#work">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#people">Testimonials</a></li>
-          <li className={`flexCenter ${css.phone}`}>
+          <li>
+            <a href="#aboutme">SOBRE MÍ</a>
+          </li>
+          <li>
+            <a href="#services">SERVICIOS</a>
+          </li>
+          <li>
+            <a href="#people">TESTIMONIOS</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACTO</a>
+          </li>
+          {/* <li className={`flexCenter ${css.phone}`}>
             <p>+001 (313) 345 678</p>
             <BiPhoneCall size={"40px"} />
-          </li>
+          </li> */}
         </ul>
 
         {/* for medium and small screens */}
