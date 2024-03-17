@@ -16,7 +16,7 @@ const Appointment = () => {
       <section
         className={`paddings ${css.wrapper}`}
         style={{
-          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../../../public/Foto sofá consulta.jpg")`,
+          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../../../Foto sofá consulta.jpg")`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
