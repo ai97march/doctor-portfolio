@@ -110,7 +110,7 @@ const Services = () => {
                     maxWidth: 345,
                   }}
                 >
-                  <CardActionArea href="#">
+                  <CardActionArea href="#widget">
                     <CardHeader
                       title={
                         <Typography
@@ -165,7 +165,7 @@ const Services = () => {
                         size="small"
                         sx={{ mt: 2, mx: "auto" }}
                         com
-                        href="#contact"
+                        href="#widget"
                       >
                         <Typography
                           variant="button"

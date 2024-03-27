@@ -137,7 +137,7 @@ const Appointment = () => {
                   paddingTop: "2rem",
                 }}
               >
-                <a href="#contact">
+                <a href="#widget">
                   <motion.button
                     className="appoButton"
                     variants={button}
