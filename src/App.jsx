@@ -33,9 +33,9 @@ const App = () => {
       {/* <Work /> */}
       {/* <Portfolio /> */}
       <People />
+      <DoctoraliaWidget />
       <ContactForm />
       {/* <Calendar /> */}
-      <DoctoraliaWidget />
       <Footer />
     </div>
   );
