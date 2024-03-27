@@ -36,11 +36,15 @@ const ContactForm = () => {
       </div>
       <motion.div
         variants={footerVariants}
-        className={`innerWidth yPaddings flexCenter ${css.container} col-xl-6 col-sm-6`} 
-        style={{display: "flex", justifyContent: "space-around", flexWrap: "wrap"}}
+        className={`innerWidth yPaddings flexCenter ${css.container} col-xl-6 col-sm-6`}
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          flexWrap: "wrap",
+        }}
       >
-        <div style={{padding: "1rem"}}>
-          <form onSubmit={handleSubmit} className={css.contact} >
+        <div style={{ padding: "1rem" }}>
+          <form onSubmit={handleSubmit} className={css.contact}>
             <label htmlFor="name">Nombre:</label>
             <input
               id="name"
@@ -96,8 +100,9 @@ const ContactForm = () => {
             </motion.button>
           </form>
         </div>
-        <div style={{padding: "1rem"}}>
-          <iframe className="aboutSectionImage"
+        <div style={{ padding: "1rem" }}>
+          <iframe
+            className="aboutSectionImage"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.7967578852627!2d-6.002117019194299!3d37.39463848352325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c0cf368136f%3A0xd5550df64124d74c!2sC.%20Bajeles%2C%2013%2C%201%20floor-M2%2C%20Casco%20Antiguo%2C%2041002%20Sevilla%2C%20Spain!5e0!3m2!1sen!2sin!4v1708886272348!5m2!1sen!2sin"
             width="500"
             height="380"
