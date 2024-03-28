@@ -63,7 +63,7 @@ const AboutMe = () => {
                 <br />
 
                 <div className="flexCenter">
-                  <a href="#contact">
+                  <a href="#widget">
                     <motion.button
                       variants={{
                         rest: { scale: 1 },

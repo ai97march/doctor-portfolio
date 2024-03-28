@@ -33,7 +33,7 @@ const DoctoraliaWidget = () => {
       <div>
         <a className="anchor" id="widget"></a>
       </div>
-      <div>
+      <div style={{ paddingTop: "2rem" }}>
         <a
           id="zl-url"
           class="zl-url"
