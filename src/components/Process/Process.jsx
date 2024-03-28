@@ -18,7 +18,14 @@ const ProcessCard = ({ process }) => {
         <Typography gutterBottom variant="h5" component="div" align="center">
           {name}
         </Typography>
-        <Typography variant="body2" color="text.secondary" align="center">
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          align="center"
+          style={{
+            lineHeight: 1.4,
+          }}
+        >
           {info}
         </Typography>
       </CardContent>

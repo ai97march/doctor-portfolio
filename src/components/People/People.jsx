@@ -54,7 +54,13 @@ const People = () => {
                     {comment.name[0].toUpperCase()}
                   </Avatar>
                   {/* <img src={comment.img} alt="" /> */}
-                  <p>{comment.comment}</p>
+                  <p
+                    style={{
+                      lineHeight: 1.4,
+                    }}
+                  >
+                    {comment.comment}
+                  </p>
                   <div className={css.line}></div>
                   <div className={css.bio}>
                     <span>{comment.name}</span>

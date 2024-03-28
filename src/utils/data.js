@@ -53,24 +53,24 @@ export const workExp = [
 
 export const comments = [
   {
-    name: "M V O",
+    name: "Laura Álvarez",
     post: "Visitante",
     comment:
-      "He probado varios psicólogos en mi vida, porque he vivido en varios sitios, pues Clara es lo mejor que me ha pasado nunca. Además me ha tocado en la etapa que empecé a tener niños y me ha ayudado infinito con todos los procesos, tiene una empatía y una forma de ayudar muy especial a la vez que realista! En fin, que os la recomiendo muchísimo y no solo para adultos, para niños también. Gracias Clara! Nos vemos pronto ;)",
+      "Clara es una grandísima profesional además de ser un amor de persona. He experimentado sesiones físicas así como online y la recomiendo sin ningún tipo de duda. Le tengo mucho que agradecer porque ha sabido escucharme, explicarme con detenimiento los procesos por los que pasaba, así como que me sentía en un lugar seguro cuando tenía sesión con ella. Clara hace que abrazar esos procesos no sea tan difícil y ese aprendizaje lo recordaré toda la vida, estoy segura.",
     img: "./people2.png",
   },
   {
     name: "Aroa",
     post: "Visitante",
     comment:
-      "Clara me ayudo muchísimo a llevar un proceso muy duro. Sabe escuchar y comunicarse. A mi personalmente me llevo a mi perdón y a ver las cosas desde otro punto de vista. Gracias Clara.",
+      "Clara me ayudo muchísimo a llevar un proceso muy duro . Sabe escuchar y comunicarse . A mi personalmente me llevo a mi perdón y a ver las cosas desde otro punto de vista . Gracias Clara .",
     img: "./people1.png",
   },
   {
-    name: "Ana Cano",
+    name: "Patricia C",
     post: "Visitante",
     comment:
-      "Ana Cano recomienda a Clara López, su psicóloga, con la que lleva trabajando un tiempo. Dice que su experiencia ha sido increíblemente positiva, que Clara tiene una empatía y una forma de ayudar muy especial. La recomienda al 100% y la agradece por todo lo que ha hecho por ella.",
+      "Muy muy contenta . Es la primera psicóloga a la que he acudido , por lo que al principio estaba muy nerviosa . Clara es una persona espectacular , siempre me ha hecho sentir cómoda y tranquila en las sesiones . En un principio tuve sesiones en persona y ahora que no estoy en Sevilla online . La recomendaría 100 % a cualquier persona :) .",
     img: "./people2.png",
   },
   // {

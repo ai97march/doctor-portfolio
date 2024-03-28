@@ -117,7 +117,7 @@ const Services = () => {
                           variant="h5"
                           align="center"
                           sx={{
-                            fontFamily: "Roboto",
+                            // fontFamily: "sans-serif",
                             fontWeight: 700,
                             color: "#3f51b5",
                             fontSize: "1.25rem",
@@ -141,7 +141,7 @@ const Services = () => {
                           <li key={index} style={{ padding: "0 16px" }}>
                             <Typography
                               variant="body1"
-                              sx={{ fontFamily: "Roboto", fontWeight: 400 }}
+                              sx={{ fontWeight: 400, lineHeight: "1.4" }}
                             >
                               {bullet}
                             </Typography>
@@ -169,7 +169,7 @@ const Services = () => {
                       >
                         <Typography
                           variant="button"
-                          sx={{ fontFamily: "Roboto", fontWeight: 500 }}
+                          sx={{ fontFamily: "sans-serif", fontWeight: 500 }}
                         >
                           Pide tu cita
                         </Typography>

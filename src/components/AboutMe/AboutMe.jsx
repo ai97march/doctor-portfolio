@@ -97,7 +97,13 @@ const AboutMe = () => {
                   flexDirection: "column",
                 }}
               >
-                <p style={{ textAlign: "center" }}>
+                <p
+                  style={{
+                    textAlign: "center",
+                    lineHeight: "1.4",
+                    // fontFamily: "Source Sans Pro, sans-serif",
+                  }}
+                >
                   Alguna vez me he preguntado qué hizo que decidiera estudiar y
                   ejercer la psicología. No tengo la respuesta exacta, pero sí
                   creo que ciertas circunstancias de mi vida me llevaron a
@@ -105,7 +111,7 @@ const AboutMe = () => {
                   ofrecerles sostén a los que lo necesitaban.
                 </p>
                 <br />
-                <p style={{ textAlign: "center" }}>
+                <p style={{ textAlign: "center", lineHeight: "1.4" }}>
                   Es lo que he seguido haciendo como psicóloga y ahora desde mi
                   consulta. Mi propósito es que en ella, encuentres un lugar
                   seguro, porque considero que solo desde un lugar que sentimos
@@ -118,7 +124,7 @@ const AboutMe = () => {
                   hace que la psicología tenga tanto poder sanador.
                 </p>
                 <br />
-                <p style={{ textAlign: "center" }}>
+                <p style={{ textAlign: "center", lineHeight: "1.4" }}>
                   Estudié el Grado de Psicología (2014) en la Universidad de
                   Sevilla.. También viví 5 años en Londres donde realicé un
                   Máster en Psicología Infantil y Adolescente (2018) en la
@@ -126,7 +132,7 @@ const AboutMe = () => {
                   no sería capaz, ¡lo conseguí!.
                 </p>
                 <br />
-                <p style={{ textAlign: "center" }}>
+                <p style={{ textAlign: "center", lineHeight: "1.4" }}>
                   Ya de vuelta, empecé a trabajar como psicóloga infantil y
                   adolescente en un Centro de Orientación Familiar muy
                   reconocido en Sevilla, donde gané experiencia y mucho

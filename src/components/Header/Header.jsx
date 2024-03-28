@@ -35,8 +35,24 @@ const Header = () => {
             height="50"
           />
           <div>
-            <div className={css.name}>Clara López</div>
-            <div className={css.subname}>PSICOLOGÍA</div>
+            <div
+              className={css.name}
+              style={{
+                fontFamily: "Libre Baskerville, serif",
+                color: "#673A84",
+              }}
+            >
+              Clara López
+            </div>
+            <div
+              className={css.subname}
+              style={{
+                fontFamily: "Libre Baskerville, serif",
+                color: "#673A84",
+              }}
+            >
+              PSICOLOGÍA
+            </div>
           </div>
         </div>
 
