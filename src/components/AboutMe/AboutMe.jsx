@@ -16,7 +16,7 @@ const AboutMe = () => {
       >
         <motion.div
           variants={fadeIn("up", "tween", 0.3, 1)}
-          className={`flexCenter ${css.heading} bottomPaddings`}
+          className={`flexCenter ${css.heading} bottomPaddings topPaddings`}
         >
           <span
             style={{

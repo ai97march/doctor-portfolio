@@ -29,22 +29,26 @@ const DoctoraliaWidget = () => {
   // }, []);
 
   return (
-    <div>
-      <a className="anchor" id="widget"></a>
-      <a
-        id="zl-url"
-        class="zl-url"
-        href="https://www.doctoralia.es/clara-lopez/psicologo/sevilla"
-        rel="nofollow"
-        data-zlw-doctor="clara-lopez"
-        data-zlw-type="big_with_calendar"
-        data-zlw-opinion="false"
-        data-zlw-hide-branding="true"
-        data-zlw-saas-only="false"
-      >
-        Clara López - Doctoralia.es
-      </a>
-    </div>
+    <>
+      <div>
+        <a className="anchor" id="widget"></a>
+      </div>
+      <div>
+        <a
+          id="zl-url"
+          class="zl-url"
+          href="https://www.doctoralia.es/clara-lopez/psicologo/sevilla"
+          rel="nofollow"
+          data-zlw-doctor="clara-lopez"
+          data-zlw-type="big_with_calendar"
+          data-zlw-opinion="false"
+          data-zlw-hide-branding="true"
+          data-zlw-saas-only="false"
+        >
+          Clara López - Doctoralia.es
+        </a>
+      </div>
+    </>
   );
 };
 
