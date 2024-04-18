@@ -78,7 +78,6 @@ const Appointment = () => {
                 className="col-xl-11 col-sm-10 MobileView"
                 style={{
                   color: "black",
-                  fontFamily: "Source Sans Pro !important",
                 }}
               >
                 <h1>

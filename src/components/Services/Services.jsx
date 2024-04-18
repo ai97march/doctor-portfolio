@@ -167,10 +167,7 @@ const Services = () => {
                         com
                         href="#widget"
                       >
-                        <Typography
-                          variant="button"
-                          sx={{ fontFamily: "sans-serif", fontWeight: 500 }}
-                        >
+                        <Typography variant="button" sx={{ fontWeight: 500 }}>
                           Pide tu cita
                         </Typography>
                       </Button>

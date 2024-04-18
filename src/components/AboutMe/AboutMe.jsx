@@ -101,7 +101,6 @@ const AboutMe = () => {
                   style={{
                     textAlign: "center",
                     lineHeight: "1.4",
-                    fontFamily: "Source Sans Pro, sans-serif",
                   }}
                 >
                   Alguna vez me he preguntado qué hizo que decidiera estudiar y
